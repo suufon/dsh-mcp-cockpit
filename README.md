@@ -17,6 +17,21 @@
 - 设置页在「设置 → MCP 服务器」（Plugins 之后）。
 - 同样的能力也暴露成一个工具 `mcp_cockpit`，模型可以直接调用。
 
+## 安装
+
+```bash
+dsh plugin --profile desktop add dsh-mcp-cockpit@github:suufon/dsh-mcp-cockpit
+```
+
+或者把仓库克隆到本地任意目录，用 DSH 的插件管理器按路径安装：
+
+```bash
+git clone https://github.com/suufon/dsh-mcp-cockpit.git
+dsh plugin --profile desktop add /absolute/path/to/dsh-mcp-cockpit
+```
+
+装好刷新页面即可，设置里会出现「MCP 服务器」一页。
+
 ## 状态的含义
 
 页面只报观测到的事实，读不到就写「状态未知」：
