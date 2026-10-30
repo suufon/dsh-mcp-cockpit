@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MCP servers",
+    "description": "Manage every MCP server on this machine from one page: status and tool counts, add, edit, enable, disable, reconnect, remove. Changes apply immediately, no restart."
+  }
+}

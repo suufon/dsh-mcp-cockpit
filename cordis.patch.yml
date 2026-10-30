@@ -1,0 +1,6 @@
+# dsh-mcp-cockpit mounts one settings page and one management tool.
+# It owns no MCP server by itself: it edits the profile's
+# `@deepseek-ai/dsh-mcp-client` rows and re-applies the profile patch.
+- insert:
+    - id: dsh-mcp-cockpit
+      name: 'dsh-mcp-cockpit'
